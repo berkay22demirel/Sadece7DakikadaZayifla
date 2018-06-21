@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="30dp">
+
+    <TextView
+        android:text="1 - Lütfen başlamadan önce talimatları okuyunuz."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorDarkGrey"
+        android:id="@+id/textViewCustonDialogEgzersizAciklama1"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:text="2 - Egzersizler kalp rahatsızlığı bulunan veya aşırı kilolu olan insanlar için uygun değildir!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorDarkGrey"
+        android:id="@+id/textViewCustonDialogEgzersizAciklama2"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:text="3 - Hazır olduğunuzda başlat butonuna basarak egzersiz yapmaya başlayabilirsiniz."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorDarkGrey"
+        android:id="@+id/textViewCustonDialogEgzersizAciklama3"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:text="Başla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCustomDialogEgzersizBasla"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="25dp" />
+
+        <Button
+            android:text="Geri Dön"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCustomDialogEgzersizGeriDon"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="30dp">
+
+    <TextView
+        android:text="Tebrikler ! Seti başarıyla tamamladınız :)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorDarkGrey"
+        android:id="@+id/textViewCustonDialogEgzersizBitisAciklama"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:text="Toplamda tamamladığınız %d. set!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorDarkGrey"
+        android:id="@+id/textViewCustonDialogEgzersizBitisSayi"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:text="TAMAMLA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCustomDialogEgzersizBitis"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</LinearLayout>

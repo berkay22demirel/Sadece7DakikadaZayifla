@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ana_giris"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.berkay22demirel.sadece7dakikadazayfla.MainActivity"
+    android:orientation="vertical"
+    android:layout_weight="0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/kapakfoto"
+                android:id="@+id/imageView"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TextView
+                    android:text="Yalnızca 7 dakikada tamamlanan yeni bir egzersiz yöntemi tüm dünyada giderek daha fazla konuşulur oldu. Yöntemin hızla yayılmasının nedeni, ağır ve zaman isteyen egzersiz programlarıyla aynı derecede faydalı olduğunun güçlü dayanaklarla ileri sürülmesi. Uzmanlar yöntemin özünü basitçe, kişinin kendi ağırlığını kullanması şeklinde açıklıyor. Bu yüksek yoğunluklu kısa süreli egzersiz serisi 12 hareketten oluşuyor. Her bir hareket 30 saniye süreyle tekrarlanıyor ve bir diğer harekete geçilmeden önce 10 saniye ara veriliyor. 7 dakikalık bu program günde 2 veya 3 kez tekrarlanabilir.  Düzenli ve programlı bir şekilde belli bir süre deneyip sonuçları görmek en iyisi. İşte o hareketler:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorDarkGrey"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:text="1 - İlk olarak 30 saniye boyunca zıplanarak metabolizma hızlandırılıyor ve 10 saniyelik bir ara veriliyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorDarkGrey"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:text="2 - Ardından 30 saniye boyunca oturma pozisyonunda kalınıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorDarkGrey"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:text="3 - 30 saniye boyunca şınav çekilip yine aynı sürede ara veriliyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorDarkGrey"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:text="4 - 30 saniye boyunca mekik çekiliyor ve 10 saniye sonrasında ara veriliyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="5 - Bir sandalyeye 30 saniye boyunca bir merdiven çıkar gibi adım atılıp tekrar iniliyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="6 - 10 saniyelik ara sonrasında bu kez 30 saniye çömelip kalkılıyor ve çömelme egzersizi uygulanıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="7 - Dips hareketine geçiliyor. Dips hareketinde kişi yine bir sandalye kullanıyor. Sırtı sandalyeye dönük bir şekilde, elleri ile sandalyeyi arkasından tutuyor ve kollarından güç alarak üst kollarıyla kendini aşağıya indirip kaldırıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="8 - 10 saniyelik ara sonrası bu kez plank pozisyonuna geçiliyor. Sopa pozisyonu olarak da adlandırılan plank pozisyonunda dirsekler 90 derecelik açı oluşturacak şekilde yere yerleştiriliyor ve 30 saniye bu pozisyonda kalınıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="9 - Sonrasında ise 9. egzersiz hareketi olan dizleri çekme hareketine geçiliyor. 30 saniye boyunca durduğunuz yerde dizler çekilerek koşarmış gibi hareket ediliyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="10 - Yine 10 saniye süren ara sonrası bu kez lunge pozisyonuna geçiliyor. Lunge pozisyonunda biri önde diğeri arkada olacak şekilde bacakları çalıştırmak için çok büyük adımlar atılarak odanın etrafında yürünüyor. Önemli olan nokta her hareket arasında 10 saniyelik aralar verilmesi oluyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="11 - Sonra ki egzersizde ise şınav hareketinin bir benzeri olarak önce bir taraf sonra diğer taraf olacak şekilde bir el yerde dönme hareketi uygulanıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="12 - Son olarak ise sırayla iki tarafta da uygulanacak şekilde yan plank pozisyonunda 30 saniye kalınıyor."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="Bütün bu uygulamalarda dikkat edilmesi gereken en önemli nokta, her hareketi 30 saniye boyunca devam ettirmek ve her dinlenmeyi ise 10 saniye ile sınırlamak oluyor. Siz de bu egzersizleri uygulayarak hem zamandan kazanabilir hem de tasarruf edebilirsiniz."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorDarkGrey" />
+                <TextView
+                    android:text="Bu 12 hareketin görsel olarak anlatımını aşağıda bulabilirsiniz."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorDarkGrey" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bir"
+                    android:id="@+id/imageViewTalimatlarBir"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/iki"
+                    android:id="@+id/imageViewTalimatlarIki"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/uc"
+                    android:id="@+id/imageViewTalimatlarUc"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dort"
+                    android:id="@+id/imageViewTalimatlarDort"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bes"
+                    android:id="@+id/imageViewTalimatlarBes"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alti"
+                    android:id="@+id/imageViewTalimatlarAlti"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/yedi"
+                    android:id="@+id/imageViewTalimatlarYedi"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sekiz"
+                    android:id="@+id/imageViewTalimatlarSekiz"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dokuz"
+                    android:id="@+id/imageViewTalimatlarDokuz"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/on"
+                    android:id="@+id/imageViewTalimatlarOn"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/onbir"
+                    android:id="@+id/imageViewTalimatlarOnbir"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="8dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/oniki"
+                    android:id="@+id/imageViewTalimatlarOniki"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="8dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGrey"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <com.startapp.android.publish.ads.banner.banner3d.Banner3D
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/startAppBanner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

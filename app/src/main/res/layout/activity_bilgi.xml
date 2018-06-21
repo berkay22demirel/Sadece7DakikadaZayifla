@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ana_giris"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.berkay22demirel.sadece7dakikadazayfla.MainActivity"
+    android:orientation="vertical"
+    android:layout_weight="0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                app:srcCompat="@drawable/kapakfoto"
+                android:id="@+id/imageView"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBilgi1"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorDarkGrey"
+                android:text="Sadece 7 dakikada etkili bir egzersiz programı ile zaman problemi olmadan, spor salonuna yazılmadan, istediğiniz her an egzersiz yaparak zayıflamaya ve forma girmeye ne dersiniz? Amerika’da ve dünyada oldukça revaçta olan 7 dakikalık egzersiz programı ile sadece kendi vücut ağırlığınızı kullanarak hedefi on ikiden vurabilirsiniz."
+                android:textAllCaps="false" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBilgi2"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorDarkGrey"
+                android:text="Bilişim ve teknolojinin sürekli bir değişim içerisinde olduğu günümüzde, zaman kavramı çok daha kıymetli hale geliyor. Hayatın hızlı akışına uyum sağlamaya çalışan bireyler, zamanı en iyi şekilde yönetmeye çalışıyor. Devamlı bir yerlere yetişme mücadelesi veren günümüz insanı; bir yandan iş, bir yandan okul, bir yandan da ev arasında mekik dokurken zamanını yönetmeye çalışıyor. Tüm bunların yanında sosyal aktivitelere de zaman ayırmaya çalışanlar, sosyal yaşamlarından ödün vermek zorunda kalabiliyor. Çoğu insan yoğun iş temposu yüzünden spor yapmaya vakit bulamazken, daha kısa süreli alternatif sporlar bulmaya çalışıyor. Fiziksel görüntü için olduğu kadar sağlık için de en önemli aktivitelerin başında gelen sporun, zaman ve mekana bağlı olmayan versiyonları popülerleşmeye başlıyor." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBilgi3"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:text="Özellikle de bir spor merkezinde spor yapmaya vakit bulamayanlar, egzersiz yapmak için farklı alternatif arayışları içerisine girebiliyor. Bu arayışların bir sonucu olarak ortaya çıkan egzersiz modellerinden biri, American College of Sports Medicine’s Health and Fitness Journal’da yayınlarak oldukça ses getiren, 7 dakikada egzersiz formülü oluyor. Amerika’da ve Avrupa’da büyük popülarite kazanan bu egzersiz şekli, 7 dakikada 12 egzersiz içeriyor. Bu yeni yaklaşıma göre sadece vücut ağırlığını kullanılarak istenilen yer ve zamanda rahatlıkla egzersiz yapılabiliyor. Evinizin rahatlığında olduğu gibi ofisinizde bile uygulayabileceğiniz 7 dakikalık egzersizler ile formda kalmak mümkün oluyor."
+                android:textColor="@color/colorDarkGrey" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBilgi4"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:text="İhtiyacınız olan şeyler sadece bir sandalye ve bir duvar oluyor. Kısa sürede yüksek yoğunluklu bir egzersiz modeli olan bu uygulama, klasik dayanıklılık egzersizleri ile elde edilen fitness başarısını sadece 7 dakika gibi kısa bir sürede elde edebilmeyi vaat ediyor. Yapılan çalışmalar sadece birkaç dakika ayrılarak yapılan bu yüksek yoğunluklu egzersizlerin, saatlerce yapılan bir koşu veya bisiklete binme gibi aktiviteler ile eş değerde etkili olduğunu gösteriyor."
+                android:textColor="@color/colorDarkGrey" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBilgi5"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:text="Yüksek yoğunluklu egzersizlerin en önemli özelliği ise 30 saniye hızlı yapılan hareketler ve egzersizler arasında verilen kısa dinlenme araları olarak gösteriliyor. Egzersizler arasındaki dinlenme süresi ise sadece 10 saniye olan bu uygulama ile vücut çok daha hızlı bir şekilde kalori yakıyor ve kaslar daha etkili bir şekilde gelişiyor. Vücudu şaşırtarak harekete geçiren 7 dakikalık egzersizler ile metabolizma çok daha hızlı hale geliyor ve kalori yakımı artıyor. 30 saniyelik zıplama, oturma, şınav, mekik, sandalye tırmanma, çömelme, dips hareketi, plank pozisyonu, koşma, lunge, yan plank gibi hareketlerden oluşan 7 dakikalık egzersiz, tüm vücudu eşit oranda çalıştırarak çok daha çabuk sonuç almanıza yardımcı oluyor."
+                android:textColor="@color/colorDarkGrey" />
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGrey"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <com.startapp.android.publish.ads.banner.banner3d.Banner3D
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/startAppBanner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
